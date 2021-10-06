@@ -1,0 +1,15 @@
+create table Employee(
+EmployeeId int AUTO_INCREMENT,
+EmployeeName nvarchar(544),
+Department nvarchar(444),
+DateOFJoining datetime,
+PhotoFileName nvarchar(555),
+PRIMARY KEY(EmployeeId)
+);
+
+
+create table Department(
+DepartmentId INT AUTO_INCREMENT,
+DepartmentName nvarchar(544),
+PRIMARY KEY(DepartmentId)
+);
